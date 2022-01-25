@@ -44,6 +44,7 @@
 }
 
 .searchline {
+    background-color: transparent;
     border-radius: 0%;
     border-style: none none solid none;
     border-color: black;
@@ -57,4 +58,34 @@
     padding-bottom: 1px;
     text-align: left;
     margin-left: 475%;
+}
+
+.searchicon {
+    margin-top: 5px;
+    margin-left: 7500%;
+    color: black;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.personicon {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-top: 8px;
+    height: 33px;
+    margin-left: 1150px;
+}
+
+.heart-bold {
+    margin-top: 5px;
+    padding-top: 12px;
+    height: 30px;
+    padding-left: 7px;
+}
+
+.bag-bold {
+    margin-top: 3px;
+    padding-top: 7px;
+    height: 35px;
+    padding-left: 12px;
 }
