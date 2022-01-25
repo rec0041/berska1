@@ -1,0 +1,60 @@
+
+.bershbutton {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline block;
+    margin-right: 16px;
+    margin: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: small;
+    font-stretch: ultra-condensed;
+}
+.bershbutton:hover {
+    background-color: #ff0058;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline block;
+    margin-right: 16px;
+    margin: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: small;
+    font-stretch: ultra-condensed;
+
+}
+
+
+.bershtitle {
+    background-color: transparent;
+    font-size: 1.25em;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-size-adjust: 100%;
+}
+
+.searchline {
+    border-radius: 0%;
+    border-style: none none solid none;
+    border-color: black;
+    color: rgb(7, 0, 0);
+    height: 30px;
+    font-size: 90%;
+    font-weight:bold;
+    margin-top: 5px;
+    padding-left: 0%;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    text-align: left;
+    margin-left: 475%;
+}
