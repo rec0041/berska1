@@ -1,0 +1,115 @@
+.sidebar {
+    width: 100px;
+    height: 100vh;
+    background-color: pink;
+    color:#ff0058;
+    opacity: 0.0;
+    z-index: -1;
+}
+
+.sidebar:hover {
+    width: 500px;
+    height: 100vh;
+    background-color: pink;
+    color:#ff0058;
+    opacity: 1.0;
+    z-index: -1;
+    transition: opacity 1s, width 1s;
+}
+
+.categories {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: left;
+    display: block;
+    margin-left: 5%;
+    padding: 5px;
+    font-size: medium;
+}
+
+.categories:hover {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: left;
+    display: block;
+    margin-left: 10%;
+    padding: 5px;
+    font-size: medium;
+}
+/* the sub categories coming out with the side banner */
+.redwords {
+    width: 500px;
+    height: 100vh;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    margin-left: 40%;
+    Margin-right: 0%;
+    padding-top: 50%;
+    text-align: left;
+    padding: 10px;
+    font-size: small;
+    display: block;
+}
+
+.redwords:hover {
+    width: 500px;
+    height: 100vh;
+    background-color: transparent;
+    border: none;
+    color: #ff0058;
+    text-align: left;
+    display: block;
+    margin-left: 40%;
+    margin-right: 0%;
+    padding-top: 50%;
+    padding: 10px;
+    font-size: small;
+    transition: width 1s;
+}
+
+.specialwords {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: left;
+    display: block;
+    margin-left: 5%;
+    padding: 5px;
+    font-size: medium;
+}
+
+.specialwords:hover {
+    background-color: transparent;
+    border: none;
+    color: #ff0058;
+    text-align: left;
+    display: block;
+    margin-left: 10%;
+    padding: 5px;
+    font-size: medium;
+}
+/* The subcategories when you hover over each word */
+.subcat {
+    background-color: transparent;
+    border: none;
+    color: #ff0058;
+    text-align: left;
+    display: block;
+    margin-left: 10%;
+    padding: 7px;
+    font-size: small;
+}
+
+.subcat:hover {
+    background-color: transparent;
+    border: none;
+    color: #ff0058;
+    text-align: left;
+    display: block;
+    margin-left: 12%;
+    padding: 7px;
+    font-size: small;
+}
