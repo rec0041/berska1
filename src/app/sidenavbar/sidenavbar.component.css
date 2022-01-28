@@ -31,7 +31,7 @@
 .categories:hover {
     background-color: transparent;
     border: none;
-    color: black;
+    color: grey;
     text-align: left;
     display: block;
     margin-left: 10%;
@@ -112,4 +112,55 @@
     margin-left: 12%;
     padding: 7px;
     font-size: small;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 100vh;
+}
+
+.left {
+    width: 40%;
+    font-size: large;
+}
+
+.right {
+    width: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    z-index: -1;
+    background-color: transparent;
+    color: black;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    background-color: transparent;
+    text-align: left;
+    z-index: -1;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    display: block;
+    z-index: -1;
+    background-color: transparent;
+    color: rgb(102, 98, 98);
+    text-align: left;
 }

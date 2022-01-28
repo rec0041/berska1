@@ -1,4 +1,6 @@
-
+.clicked {
+    box-shadow: #ff0058 !important;
+}
 .bershbutton {
     background-color: transparent;
     border: none;
@@ -89,3 +91,28 @@
     height: 35px;
     padding-left: 12px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: transparent;
+    color: black;
+  }
