@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SideNavBarComponent } from './sidenavbar/sidenavbar.component';
 import { BSCarouselComponent } from './bscarousel/bscarousel.component';
 import { FooterComponent } from './footer/footer.component';
+import { VerticalCardComponent } from './verticalcard/verticalcard.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FooterComponent } from './footer/footer.component';
     TopNavBarComponent,
     SideNavBarComponent,
     BSCarouselComponent,
-    FooterComponent
+    FooterComponent,
+    VerticalCardComponent
   ],
   imports: [
     BrowserModule
