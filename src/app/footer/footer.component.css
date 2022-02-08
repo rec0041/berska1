@@ -29,11 +29,12 @@ container {
     color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-size:small;
-    font-stretch: expanded;
+    font-stretch:extra-expanded;
 }
 
 .subscribe {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: xx-large;
+    padding-bottom: 8px;
 }
