@@ -23,9 +23,12 @@
     color: black;
     text-align: left;
     display: block;
-    margin-left: 5%;
-    padding: 5px;
-    font-size: medium;
+    margin-left: 15%;
+    padding: 8px;
+    font-size: 17px;;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
 }
 
 .categories:hover {
@@ -34,19 +37,22 @@
     color: grey;
     text-align: left;
     display: block;
-    margin-left: 10%;
-    padding: 5px;
-    font-size: medium;
+    margin-left: 20%;
+    padding: 8px;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
 }
 /* the sub categories coming out with the side banner */
 .redwords {
-    width: 500px;
-    height: 100vh;
+    /* width: 500px;
+    height: 100vh; */
     background-color: transparent;
     border: none;
     color: transparent;
-    margin-left: 40%;
-    Margin-right: 0%;
+    /* margin-left: 40%;
+    Margin-right: 0%; */
     padding-top: 50%;
     text-align: left;
     padding: 10px;
@@ -55,16 +61,16 @@
 }
 
 .redwords:hover {
-    width: 500px;
-    height: 100vh;
+    /* width: 500px;
+    height: 100vh; */
     background-color: transparent;
     border: none;
     color: #ff0058;
     text-align: left;
-    display: block;
-    margin-left: 40%;
-    margin-right: 0%;
-    padding-top: 50%;
+    /* display: block; */
+    /* margin-left: 40%; */
+    /* margin-right: 0%; */
+    /* padding-top: 50%; */
     padding: 10px;
     font-size: small;
     transition: width 1s;
@@ -163,4 +169,9 @@ li a:hover {
     background-color: transparent;
     color: rgb(102, 98, 98);
     text-align: left;
+}
+
+.space {
+    color: transparent;
+    font-size: small;
 }
