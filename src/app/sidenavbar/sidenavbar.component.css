@@ -1,7 +1,7 @@
 .sidebar {
     width: 100px;
     height: 100vh;
-    background-color: pink;
+    background-color: white;
     color:#ff0058;
     opacity: 0.0;
     z-index: -1;
@@ -10,7 +10,7 @@
 .sidebar:hover {
     width: 500px;
     height: 100vh;
-    background-color: pink;
+    background-color: white;
     color:#ff0058;
     opacity: 1.0;
     z-index: -1;
