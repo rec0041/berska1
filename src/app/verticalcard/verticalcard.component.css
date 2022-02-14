@@ -24,3 +24,25 @@
       margin-bottom: 0;
       margin-left: 10%;
   }
+
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bi {
+    /* width: 25px ;
+    height: 25px;  */
+    fill: black;
+    align-items: flex-end;
+  }
+
+  .price {
+    font-weight: bold;
+  }
