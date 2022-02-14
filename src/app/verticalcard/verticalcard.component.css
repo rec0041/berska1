@@ -29,6 +29,7 @@
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+    margin-bottom: 20px;
   }
 
   a {
@@ -45,4 +46,5 @@
 
   .price {
     font-weight: bold;
+    margin-bottom: 20px;
   }

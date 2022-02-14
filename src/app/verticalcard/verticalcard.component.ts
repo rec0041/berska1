@@ -6,10 +6,9 @@ import { Component, Input } from "@angular/core";
     styleUrls: ['verticalcard.component.css']
 })
 export class VerticalCardComponent {
-    @Input()
-    img: string;
-    price: number;
-    description: string;
+    @Input() img: string;
+    @Input() price: number;
+    @Input() description: string;
 
     constructor() {
         this.img = "";
