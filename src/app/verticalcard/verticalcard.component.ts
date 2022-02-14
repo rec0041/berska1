@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'bershka-verticalcard',
@@ -6,5 +6,14 @@ import { Component } from "@angular/core";
     styleUrls: ['verticalcard.component.css']
 })
 export class VerticalCardComponent {
+    @Input()
+    img: string;
+    price: number;
+    description: string;
 
+    constructor() {
+        this.img = "";
+        this.price = 0;
+        this.description = "Missing Description";
+    }
 }
