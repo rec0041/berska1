@@ -3,10 +3,14 @@
 <bershka-sidenavbar>Loading...</bershka-sidenavbar>
 
 <div class="container-fluid d-flex">
-    <bershka-verticalcard class="mx-1" img="assets/ribbedcorset.jpg">Loading...</bershka-verticalcard>
-    <bershka-verticalcard class="mx-1" img="assets/DTSD.jpg">Loading...</bershka-verticalcard>
-    <bershka-verticalcard class="mx-1" img="assets/SWC.jpg">Loading...</bershka-verticalcard>
-    <bershka-verticalcard class="mx-1" img="assets/loafers.jpg">Loading...</bershka-verticalcard>
+    <div *ngFor="let product of products">
+        <bershka-verticalcard class="mx-2" 
+        img={{product.img}} 
+        [price]=product.price 
+        description={{product.description}}>
+            Loading...
+        </bershka-verticalcard>
+    </div>
 </div>
 
 <bershka-bscarousel>Loading...</bershka-bscarousel>
