@@ -2,14 +2,14 @@
 
 <bershka-sidenavbar>Loading...</bershka-sidenavbar>
 
-<div class="container-fluid d-flex">
+<div class="container-fluid d-flex row row-cols-4">
     <div *ngFor="let product of products">
-        <bershka-verticalcard class="mx-2" 
-        img={{product.img}} 
-        [price]=product.price 
-        description={{product.description}}>
-            Loading...
-        </bershka-verticalcard>
+        <div class="col">
+            <bershka-verticalcard class="mx-2" img={{product.img}} [price]=product.price
+                description={{product.description}}>
+                Loading...
+            </bershka-verticalcard>
+        </div>
     </div>
 </div>
 
