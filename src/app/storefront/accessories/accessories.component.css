@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:100px;
+    font-weight:bold;
+    
+  }
+
+  .card {
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:smaller;
+      color: black;
+      text-align: left;
+      padding: 0.5%;
+      border-color: white;
+      margin-bottom: 0;
+      margin-left: 10%;
+  }
+
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bi {
+    /* width: 25px ;
+    height: 25px;  */
+    fill: black;
+    align-items: flex-end;
+  }
+
+  .price {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
