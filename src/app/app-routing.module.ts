@@ -6,6 +6,7 @@ import { BestSellersComponent } from './storefront/bestsellers.component';
 import { ShoesPageComponent } from './storefront/shoes/shoespage.component';
 import { CollabPageComponent } from './storefront/collab/collabpage.component';
 import { NewPageComponent } from './storefront/New/newpage.component';
+import { AccessoriesPageComponent } from './storefront/accessories/accessoriespage.component';
 
 const routes: Routes = [
   {path: '', component: HomePageLayoutComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'best-sellers', component: BestSellersComponent},
   {path: 'shoes', component: ShoesPageComponent},
   {path: 'collab', component: CollabPageComponent},
-  {path: 'new', component: NewPageComponent}
+  {path: 'new', component: NewPageComponent},
+  {path: 'accessories', component: AccessoriesPageComponent}
 ];
 
 @NgModule({
