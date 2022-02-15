@@ -1,0 +1,10 @@
+<h1 class="space">hi</h1>
+<a>New</a>
+
+<div class="container-fluid d-flex row row-cols-4">
+    <div *ngFor="let product of products">
+        <bershka-new class="mx-2" img={{product.img}} [price]=product.price description={{product.description}}>
+            Loading...
+        </bershka-new>
+    </div>
+</div>

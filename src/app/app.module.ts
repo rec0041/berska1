@@ -15,6 +15,7 @@ import { ShoesPageComponent } from './storefront/shoes/shoespage.component';
 import { CollabComponent } from './storefront/collab/collab.component';
 import { CollabPageComponent } from './storefront/collab/collabpage.component';
 import { NewComponent } from './storefront/New/new.component';
+import { NewPageComponent } from './storefront/New/newpage.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NewComponent } from './storefront/New/new.component';
     ShoesPageComponent,
     CollabComponent,
     CollabPageComponent,
-    NewComponent
+    NewComponent,
+    NewPageComponent
   ],
   imports: [
     BrowserModule,
