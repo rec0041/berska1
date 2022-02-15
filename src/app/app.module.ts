@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { VerticalCardComponent } from './verticalcard/verticalcard.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomePageLayoutComponent } from './storefront/homepagelayout.component';
+import { BestSellersComponent } from './storefront/bestsellers.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomePageLayoutComponent } from './storefront/homepagelayout.component';
     BSCarouselComponent,
     FooterComponent,
     VerticalCardComponent,
-    HomePageLayoutComponent
+    HomePageLayoutComponent,
+    BestSellersComponent
   ],
   imports: [
     BrowserModule,
