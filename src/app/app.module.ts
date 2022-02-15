@@ -10,6 +10,7 @@ import { VerticalCardComponent } from './verticalcard/verticalcard.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomePageLayoutComponent } from './storefront/homepagelayout.component';
 import { BestSellersComponent } from './storefront/bestsellers.component';
+import { ShoesComponent } from './storefront/shoes/shoes.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BestSellersComponent } from './storefront/bestsellers.component';
     FooterComponent,
     VerticalCardComponent,
     HomePageLayoutComponent,
-    BestSellersComponent
+    BestSellersComponent,
+    ShoesComponent
   ],
   imports: [
     BrowserModule,
