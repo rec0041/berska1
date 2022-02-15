@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageLayoutComponent } from './storefront/homepagelayout.component';
 import { BestSellersComponent } from './storefront/bestsellers.component';
+import { ShoesPageComponent } from './storefront/shoes/shoespage.component';
 
 const routes: Routes = [
   {path: '', component: HomePageLayoutComponent},
   {path: 'Home-Page', component: HomePageLayoutComponent},
-  {path: 'best-sellers', component: BestSellersComponent}
+  {path: 'best-sellers', component: BestSellersComponent},
+  {path: 'shoes', component: ShoesPageComponent}
 ];
 
 @NgModule({

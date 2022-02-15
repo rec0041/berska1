@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomePageLayoutComponent } from './storefront/homepagelayout.component';
 import { BestSellersComponent } from './storefront/bestsellers.component';
 import { ShoesComponent } from './storefront/shoes/shoes.component';
+import { ShoesPageComponent } from './storefront/shoes/shoespage.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ShoesComponent } from './storefront/shoes/shoes.component';
     VerticalCardComponent,
     HomePageLayoutComponent,
     BestSellersComponent,
-    ShoesComponent
+    ShoesComponent,
+    ShoesPageComponent
   ],
   imports: [
     BrowserModule,

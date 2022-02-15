@@ -33,5 +33,30 @@ export const mock_product_list2 = [
         img: "assets/FQB.jpg",
         price: 89.90,
         description: "Flat quilted boots."
+    },
+    {
+        img: "assets/SWBD.jpg",
+        price: 59.90,
+        description: "Sneakers with butterfly detail"
+    },
+    {
+        img: "assets/PHTS.jpg",
+        price: 49.90,
+        description: "Platform high-top sneakers"
+    },
+    {
+        img: "assets/FFFB.jpg",
+        price: 89.90,
+        description: "Flat faux fur boots"
+    },
+    {
+        img: "assets/CSS.jpg",
+        price: 49.90,
+        description: "Chain strap sneakers"
+    },
+    {
+        img: "assets/CPS.jpg",
+        price: 39.90,
+        description: "Contrast platform sneakers"
     }
 ];
