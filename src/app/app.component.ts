@@ -9,12 +9,5 @@ import { ProductItemModel } from './product-item.model';
 })
 export class AppComponent {
   title = 'bershka';
-  products: ProductItemModel [] = [];
-
-  constructor() {
-    for (var product of mock_product_list) {
-      console.log(product);
-      this.products.push(product);
-    }
-  }
+  
 }

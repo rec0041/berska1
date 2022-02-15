@@ -7,6 +7,8 @@ import { SideNavBarComponent } from './sidenavbar/sidenavbar.component';
 import { BSCarouselComponent } from './bscarousel/bscarousel.component';
 import { FooterComponent } from './footer/footer.component';
 import { VerticalCardComponent } from './verticalcard/verticalcard.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomePageLayoutComponent } from './storefront/homepagelayout.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { VerticalCardComponent } from './verticalcard/verticalcard.component';
     SideNavBarComponent,
     BSCarouselComponent,
     FooterComponent,
-    VerticalCardComponent
+    VerticalCardComponent,
+    HomePageLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

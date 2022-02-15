@@ -5,6 +5,7 @@
     color:#ff0058;
     opacity: 0.0;
     z-index: -1;
+    position: static;
 }
 
 .sidebar:hover {
@@ -15,6 +16,7 @@
     opacity: 1.0;
     z-index: -1;
     transition: opacity 1s, width 1s;
+    position: static;
 }
 
 .categories {
