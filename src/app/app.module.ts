@@ -12,6 +12,8 @@ import { HomePageLayoutComponent } from './storefront/homepagelayout.component';
 import { BestSellersComponent } from './storefront/bestsellers.component';
 import { ShoesComponent } from './storefront/shoes/shoes.component';
 import { ShoesPageComponent } from './storefront/shoes/shoespage.component';
+import { CollabComponent } from './storefront/collab/collab.component';
+import { CollabPageComponent } from './storefront/collab/collabpage.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ShoesPageComponent } from './storefront/shoes/shoespage.component';
     HomePageLayoutComponent,
     BestSellersComponent,
     ShoesComponent,
-    ShoesPageComponent
+    ShoesPageComponent,
+    CollabComponent,
+    CollabPageComponent
   ],
   imports: [
     BrowserModule,
