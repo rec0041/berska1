@@ -1,0 +1,24 @@
+#myVideo {
+    /* position: relative;
+    margin-top: -900px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0; */
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    margin-top: -900px;
+    min-height: 100%;
+    min-width: 100%; 
+  }
+
+.container {
+    float: left; 
+    position: relative; 
+    left:0; 
+    top:0;
+    min-width: 100%;
+
+}

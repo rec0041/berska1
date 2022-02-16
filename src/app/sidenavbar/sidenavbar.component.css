@@ -4,7 +4,7 @@
     background-color: white;
     color:#ff0058;
     opacity: 0.0;
-    z-index: -1;
+    z-index: 9997;
     position: static;
 }
 
@@ -14,7 +14,7 @@
     background-color: white;
     color:#ff0058;
     opacity: 1.0;
-    z-index: -1;
+    z-index: 9997;
     transition: opacity 1s, width 1s;
     position: static;
 }
