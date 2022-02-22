@@ -1,0 +1,14 @@
+Change Log for Lab 5:
+Components Added:
+  Home Page:
+    - 3 cards (look1, look2, look3)
+  Accessories Page:
+    - small card category components
+  Collaborations Page:
+    - categories topnav bar
+    - 2 page layout buttons
+  Shoes Page:
+    - categories topnav bar
+    - 2 page layout buttons
+Bonus:
+  - 3 rows of card components per routing pages from last week
