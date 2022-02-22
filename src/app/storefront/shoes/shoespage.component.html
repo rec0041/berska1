@@ -1,6 +1,48 @@
 <h1 class="space">hi</h1>
 <a>Shoes</a>
 
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#">All</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Collaborations®</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Leather</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">New</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trainers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Boots</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ankle boots</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sandals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Heels</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Flats</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Special prices</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <div class="container-fluid d-flex row row-cols-4">
     <div *ngFor="let product of products">
         <bershka-shoes class="mx-2" img={{product.img}} [price]=product.price description={{product.description}}>

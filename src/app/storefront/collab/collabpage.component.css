@@ -8,5 +8,45 @@ a {
 .space {
     color: transparent;
     font-size: 20px;
-    margin-top: -750px;
+    margin-top: -800px;
+}
+.nav-link {
+    font-size: x-small;
+
+}
+
+.navbar-brand {
+    font-size: x-small;
+}
+
+
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-color: lightgrey;
+    margin-top: -20px;
+   
+}
+
+.btn-circle:hover {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+
+    
+    
+    
 }

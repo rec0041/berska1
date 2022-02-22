@@ -1,6 +1,30 @@
 <h1 class="space">hi</h1>
 <a>Collaborations®</a>
 
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#">All</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Squid Game</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">The Witcher</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Music</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<button type="button" class="btn btn-default btn-circle ms-2 me-5" style="float: right">4</button>
+<button type="button" class="btn btn-default btn-circle ms-4" style="float: right">2</button>
+
 <div class="container-fluid d-flex row row-cols-4">
     <div *ngFor="let product of products">
         <bershka-collab class="mx-2" img={{product.img}} [price]=product.price description={{product.description}}>

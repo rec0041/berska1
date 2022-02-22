@@ -8,5 +8,13 @@ a {
 .space {
     color: transparent;
     font-size: 20px;
-    margin-top: -750px;
+    margin-top: -800px;
+}
+.nav-link {
+    font-size: x-small;
+
+}
+
+.navbar-brand {
+    font-size: x-small;
 }
