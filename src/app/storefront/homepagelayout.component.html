@@ -1,4 +1,9 @@
-<div>
-    
+<div class="container-fluid d-flex row row-cols-3">
+    <div *ngFor="let product of products">
+        <div class="col">
+            <bershka-homecards class="mx-2" img={{product.img}}>
+                Loading...
+            </bershka-homecards>
+        </div>
+    </div>
 </div>
-This is the home page!

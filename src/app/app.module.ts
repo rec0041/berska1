@@ -19,6 +19,7 @@ import { NewPageComponent } from './storefront/New/newpage.component';
 import { AccessoriesComponent } from './storefront/accessories/accessories.component';
 import { AccessoriesPageComponent } from './storefront/accessories/accessoriespage.component';
 import { SmallCardsComponent } from './storefront/smallcards/smallcards.component';
+import { HomeCardsComponent } from './storefront/homecards.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { SmallCardsComponent } from './storefront/smallcards/smallcards.componen
     NewPageComponent,
     AccessoriesComponent,
     AccessoriesPageComponent,
-    SmallCardsComponent
+    SmallCardsComponent,
+    HomeCardsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { mock_product_list } from "../mock_product_list";
-import { ProductItemModel } from "../product-item.model";
+import { mock_product_list6 } from "./mock_product_list6";
+import { ProductItem6Model } from "./product-item6.model";
 
 @Component({
     selector: 'bershka-homepagelayout',
@@ -8,10 +8,10 @@ import { ProductItemModel } from "../product-item.model";
     styleUrls: ['homepagelayout.component.css']
 })
 export class HomePageLayoutComponent {
-    products: ProductItemModel [] = [];
+    products: ProductItem6Model [] = [];
 
   constructor() {
-    for (var product of mock_product_list) {
+    for (var product of mock_product_list6) {
       console.log(product);
       this.products.push(product);
     }
