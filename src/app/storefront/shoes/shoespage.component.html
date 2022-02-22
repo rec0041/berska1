@@ -43,6 +43,9 @@
     </div>
 </nav>
 
+<button type="button" class="btn btn-default btn-circle ms-2 me-5" style="float: right">4</button>
+<button type="button" class="btn btn-default btn-circle ms-4" style="float: right">2</button>
+
 <div class="container-fluid d-flex row row-cols-4">
     <div *ngFor="let product of products">
         <bershka-shoes class="mx-2" img={{product.img}} [price]=product.price description={{product.description}}>
