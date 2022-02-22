@@ -18,6 +18,7 @@ import { NewComponent } from './storefront/New/new.component';
 import { NewPageComponent } from './storefront/New/newpage.component';
 import { AccessoriesComponent } from './storefront/accessories/accessories.component';
 import { AccessoriesPageComponent } from './storefront/accessories/accessoriespage.component';
+import { SmallCardsComponent } from './storefront/smallcards/smallcards.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AccessoriesPageComponent } from './storefront/accessories/accessoriespa
     NewComponent,
     NewPageComponent,
     AccessoriesComponent,
-    AccessoriesPageComponent
+    AccessoriesPageComponent,
+    SmallCardsComponent
   ],
   imports: [
     BrowserModule,
