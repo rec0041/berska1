@@ -20,6 +20,7 @@ import { AccessoriesComponent } from './storefront/accessories/accessories.compo
 import { AccessoriesPageComponent } from './storefront/accessories/accessoriespage.component';
 import { SmallCardsComponent } from './storefront/smallcards/smallcards.component';
 import { HomeCardsComponent } from './storefront/homecards.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { HomeCardsComponent } from './storefront/homecards.component';
     AccessoriesComponent,
     AccessoriesPageComponent,
     SmallCardsComponent,
-    HomeCardsComponent
+    HomeCardsComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
