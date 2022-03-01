@@ -21,6 +21,7 @@ import { AccessoriesPageComponent } from './storefront/accessories/accessoriespa
 import { SmallCardsComponent } from './storefront/smallcards/smallcards.component';
 import { HomeCardsComponent } from './storefront/homecards.component';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { UserInfoComponent } from './user-info/user-info.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
