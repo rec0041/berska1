@@ -1,0 +1,4 @@
+Change log for Lab 6:
+    Created:
+        user-info component
+            - put component in app.module to appear on page at the top
