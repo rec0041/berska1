@@ -1,0 +1,7 @@
+main features:
+    - created products.service.ts
+    - created mocklist in firebase
+    - implemented the use of the service from goal 2
+      in bestsellers.component.ts 
+Bonus Features: 
+    - transferred the rest of the mocklists to firebase
