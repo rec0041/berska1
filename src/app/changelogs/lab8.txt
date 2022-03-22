@@ -1,0 +1,4 @@
+Main features:
+    - Configured Angular Fire library
+    - Modify the service from the last lab by removing HTTpClient dependency and injecting AngularFireDatabas as dependency
+    - (Re)implement the method used for fetching your data by using the angular fire dependency
