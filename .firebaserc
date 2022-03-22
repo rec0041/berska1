@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "bershka-6737c"
+  },
+  "targets": {
+    "bershka-6737c": {
+      "hosting": {
+        "bershka": [
+          "bershka-6737c"
+        ]
+      }
+    }
   }
 }

@@ -19,7 +19,7 @@ export class BestSellersComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.productsService.getProducts().subscribe(data => {
+    this.productsService.getProducts().subscribe(data =>  {
       console.log("Fetching product data");
       console.log(data);
     })
