@@ -1,0 +1,4 @@
+Main features:
+    - created add-products component
+    - added addProduct() method
+        - add products to the backend through /admin extension
