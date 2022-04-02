@@ -13,4 +13,12 @@ export class ProductsService {
     public getProducts() {
         return this.db.list<ProductItemModel>("products").valueChanges();
     }
+
+    getProduct(index:number) {
+
+    }
+
+    addProduct(product : ProductItemModel) {
+        this.db.list<ProductItemModel>("products").push(product);
+    }
 }
