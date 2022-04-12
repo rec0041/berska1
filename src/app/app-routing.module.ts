@@ -8,6 +8,7 @@ import { CollabPageComponent } from './storefront/collab/collabpage.component';
 import { NewPageComponent } from './storefront/New/newpage.component';
 import { AccessoriesPageComponent } from './storefront/accessories/accessoriespage.component';
 import { AddProductComponent } from './storefront/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
   {path: '', component: HomePageLayoutComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'collab', component: CollabPageComponent},
   {path: 'new', component: NewPageComponent},
   {path: 'accessories', component: AccessoriesPageComponent},
-  {path: 'admin', component: AddProductComponent}
+  {path: 'admin', component: AddProductComponent},
+  {path: 'auth', component: AuthenticationComponent}
 ];
 
 @NgModule({

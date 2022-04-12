@@ -1,0 +1,4 @@
+Main features:
+    - created authentication component
+        --> set up authentication for the backend
+        --> must enter email and password to sign in
